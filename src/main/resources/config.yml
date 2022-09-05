@@ -1,0 +1,9 @@
+messages:
+  no-permission: '<red>You do not have permission to lock items!'
+  cannot-lock-air: '<red>Must hold an item in your hand!'
+  item-locked: '<green>Successfully locked item! You can no longer drop this item!'
+  item-already-locked: '<red>This item is already locked. Did you mean <yellow>/locker unlock <red>?'
+  item-unlocked: '<green>Successfully unlocked item! You can now drop it freely!'
+  item-already-unlocked: '<red>This item is already unlocked. Did you mean <yellow>/locker lock <red>?'
+  cannot-drop-item: '<red>This item is locked! You need to unlock it before dropping!'
+  usage: '<yellow>/locker lock | unlock'

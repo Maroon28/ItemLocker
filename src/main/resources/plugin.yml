@@ -1,0 +1,12 @@
+name: ItemLocker
+version: '${project.version}'
+main: me.maroon28.itemlocker.ItemLocker
+api-version: 1.19
+authors: [ Maroon28 ]
+description: A simple plugin which locks and unlocks items to the player's inventory
+commands:
+  locker:
+    aliases: itemlocker
+    permission: itemlocker.use
+    usage: /locker lock | unlock
+    description: Locks item from being dropped accidentally
