@@ -38,7 +38,8 @@ public class LockCommand implements CommandExecutor {
             player.sendMessage(getMessage("usage"));
             return true;
         }
-        return false;
+        player.sendMessage(getMessage("usage"));
+        return true;
     }
 
     private boolean tryUnlock() {
